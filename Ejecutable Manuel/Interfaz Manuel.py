@@ -2,7 +2,7 @@ import tkinter as tk
 from PIL import Image, ImageTk
 
 ventana = tk.Tk()
-path = Image.open('C:\\Users\\Moril\\Desktop\\Ejecutable Manuel\\Manuel.jpg')
+path = Image.open("Manuel.jpg")
 #from tkinter import tk, StringVar, Label, Button
 icono = ImageTk.PhotoImage(path)
 ventana.iconphoto(True, icono)
